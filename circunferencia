@@ -1,3 +1,10 @@
+print("""
+ ██   ██ ███████ ███    ██ ███    ██ ██    ██ 
+ ██  ██  ██      ████   ██ ████   ██  ██  ██  
+ █████   █████   ██ ██  ██ ██ ██  ██   ████   
+ ██  ██  ██      ██  ██ ██ ██  ██ ██    ██    
+ ██   ██ ███████ ██   ████ ██   ████    ██    
+""")
 area = 0
 peri = 0 
 print("Area y Perimetro de la cicunferencia")
@@ -8,3 +15,18 @@ peri = 2*3.14*radio
 print("Mostrar resultado")
 print("Area     : ", area.__round__(2))
 print("Perimetro  : ", peri.__round__(2))
+while(True):
+  try:
+    sp = int(input("Deseas continuar: SI=1/NO=0"))
+    if(sp==0 or sp==1):
+      break
+    else:
+      print("Animal , soolo ingresa 1 o 0")
+  except:
+      print("Caballerin no letras")
+
+  if(sp==0):
+    break
+
+print("Ud a terminado el sistema")
+print("Visitanos en www.coderhouse.com")
