@@ -1,0 +1,10 @@
+area = 0
+peri = 0 
+print("Area y Perimetro de la cicunferencia")
+print()
+radio = float(input("Ingrese el radio:"))
+area = 3.14*radio*radio
+peri = 2*3.14*radio
+print("Mostrar resultado")
+print("Area     : ", area.__round__(2))
+print("Perimetro  : ", peri.__round__(2))
